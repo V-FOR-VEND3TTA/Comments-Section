@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ccc;
+}
+
+/* The comments section box */
+.container {
+    width: 600px;
+    border: 2px solid #333333;
+    padding: 15px 10px;
+}
+
+/* Leave Us a Comment */
+.container h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* Comments insert area */
+textarea {
+    height: 20px;
+    width: 100%; 
+    border: none;
+    border-bottom: 2px solid #111;
+    background-color: transparent;
+    margin-bottom: 10px;
+    resize: none;
+    outline: none;
+}
+
+/* The comment and cancel buttons */
+input[type="submit"], button {
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* The comment button */
+input[type="submit"] {
+    color: #fff;
+    background-color: dodgerblue;
+}
+
+/* The cancel button */
+button {
+    color: #333333;
+    background-color: transparent;
+}
+
+.btn {
+    display: none;
+}
